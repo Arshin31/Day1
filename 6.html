@@ -1,0 +1,87 @@
+<html lang="en">
+    <head>
+        <title>6th question
+        </title>
+        <style>
+            .inside input[type="text"] {
+                background: transparent;
+                border: none;
+                border-bottom: 1px solid #000000;
+                
+            }
+
+            .inside input {
+                display: inline-block;
+                width: 20em;
+                position: relative;
+                top: -3em;
+                
+            }
+
+            label {
+                display: inline-block;
+                width: 6em;
+                margin-right: .5em;
+                padding-top: 1.5em;
+            }
+            .container {
+                padding: 30px;
+                border: grey;
+                border-style: solid;
+            } 
+
+            h3{
+                color: white;
+                background-color: red;
+                padding: 5px;
+            }
+
+            .bottom {
+                font-weight: bold;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h3>Yes! I want to subscribe to Mag-O-Zine</h3>
+
+        <form id="sg1">
+            <div class="inside">
+            <table style="width:100%">
+                <tr>
+                    <td><label>First Name <input type="text"  /></label></td>
+                    <td><label>Last Name <input type="text" /></label></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Adress <input type="text"  /></label></td>
+                </tr>
+
+                <tr>
+                    <td><label>City <input type="text"  /></label></td>
+                    <td><label>State <input type="text" /></label></td>
+                    <td><label>Zip <input type="text" /></label></td>
+                </tr>
+            
+            </table>
+            </div>
+            <br>
+            <div class="bottom">
+                Subscribe for:
+                <input type="checkbox" name="1">1 year ($19.95)
+            
+                <input type="checkbox" name="2">2 years ($35.00)
+                <br><br>
+                Send me more infomration about:<br>
+                <input type="checkbox" name="1">Computer-Zine<br>
+            
+                <input type="checkbox" name="2">Fishing-Zine<br>
+
+                <input type="checkbox" name="3">Cat-O-Zine<br>
+            </div>
+          </form>   
+        </div>
+    </body>
+</html>
